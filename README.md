@@ -1,44 +1,38 @@
-# 🎬 Movie Recommender System (Mood-Based)
+# 🎬 Movie Recommender
 
-## 📌 Overview
-This project is a mood-based movie recommendation system that suggests movies based on the user’s current emotional state rather than traditional collaborative filtering (like Netflix-style systems). Instead of relying on user history or ratings, the system asks users how they feel and returns personalized movie suggestions accordingly.
+An interactive web app that recommends movies based on your mood, genre, length, and viewing context.
 
----
+## Features
+- **Smart Filtering**: Select mood, genre, movie length, and viewing context
+- **Real-Time Data**: Integrates TMDB API for up-to-date movie information
+- **Interactive UI**: Responsive React frontend with smooth user experience
 
-## 💡 Key Idea
-Traditional recommendation systems rely on collaborative filtering, which often forces users to spend a lot of time browsing, rating, or searching through large libraries before finding something they like.
+## Live Demo
+👉 [movierecommender-liz.netlify.app](https://movierecommender-liz.netlify.app/)
 
-This project takes a simpler and more human-centered approach:
-👉 Instead of making users filter through content, it directly asks what they are feeling and immediately provides personalized movie recommendations based on their mood.
+## Tech Stack
+- **Frontend**: React, JavaScript, CSS
+- **Backend**: Python
+- **API**: TMDB (The Movie Database)
+- **Hosting**: Netlify
 
-The goal is to reduce decision fatigue and make movie selection faster, more intuitive, and more personalized and satisfactory.
+## How It Works
+1. Answer the quiz questions about your preferences
+2. Select your mood, genre, preferred length, and viewing context
+3. Get personalized movie recommendations
 
-This project takes a different approach:
-👉 It maps **human emotions → movie categories → personalized recommendations**
 
----
-
-## ⚙️ Features
-- 🎭 Mood-based input from user (e.g., happy, sad, bored, excited)
-- 🎬 Curated movie suggestions based on emotional state
-- ⚡ Fast and lightweight recommendation logic
-- 🧠 Intuitive and human-centered recommendation approach
-- 💻 Simple and interactive UI (if applicable)
-
----
-
-## 🛠️ Tech Stack
-- JavaScript / Python (edit based on your project)
-- React.js (if used)
-- HTML, CSS
-- Node.js (if used)
-- JSON / dataset-based logic
-
----
 ## Known Limitations & Future Improvements
+- Some very specific filter combinations may return limited results due to dataset coverage
+- Future: implement fallback recommendations when no exact matches exist
+- Future: add user rating system to improve recommendations over time
 
-- Some very specific filter combinations (e.g., horror + thrilling+ more than 2.5 hrs watch lenght) may return limited results due to dataset coverage
-- Currently pulls top 100 movies from TMDB; expanding dataset would improve recommendation variety
-- Future: implement fallback logic to suggest "close matches" when exact filters return no results
+## Installation & Setup
+```bash
+git clone https://github.com/lizal04/movie-recommender.git
+npm install
+npm start
+```
 
----
+## Author
+**Lizal Adhikari** 
