@@ -35,5 +35,10 @@ This project takes a different approach:
 - JSON / dataset-based logic
 
 ---
+## Known Limitations & Future Improvements
 
-## 📁 Project Structure
+- Some very specific filter combinations (e.g., horror + thrilling+ more than 2.5 hrs watch lenght) may return limited results due to dataset coverage
+- Currently pulls top 100 movies from TMDB; expanding dataset would improve recommendation variety
+- Future: implement fallback logic to suggest "close matches" when exact filters return no results
+
+---
