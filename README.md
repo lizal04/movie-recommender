@@ -20,7 +20,7 @@ An interactive web app that recommends movies based on your mood, genre, length,
 1. Answer the quiz questions about your preferences
 2. Select your mood, genre, preferred length, and viewing context
 3. Get personalized movie recommendations
-4. Click on any movie to see details
+
 
 ## Known Limitations & Future Improvements
 - Some very specific filter combinations may return limited results due to dataset coverage
@@ -35,4 +35,4 @@ npm start
 ```
 
 ## Author
-**Lizal Adhikari** | Data Science Student at UNT
+**Lizal Adhikari** 
